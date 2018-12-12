@@ -3,5 +3,4 @@
     { "keys": ["f2"], "command": "sublime_bookmark", "args" : { "type" : "goto_next" } },
     { "keys": ["shift+f2"], "command": "sublime_bookmark", "args" : { "type" : "goto_previous" } },
     { "keys": ["ctrl+f2"], "command": "sublime_bookmark", "args" : { "type" : "goto" } },
-    { "keys": ["super+f2"], "command": "sublime_bookmark", "args" : { "type" : "toggle_line"  } }
 ]

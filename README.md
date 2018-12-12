@@ -25,7 +25,7 @@ Let's face it: sublime text's bookmark system __sucks__.
  It doesn't support named bookmarks. It doesn't save bookmark statuses, and it is just terrible to use overall.
   __\</rant\>__.
 
-This is a replacement for sublime text's bookmark functionality. It's slicker and easier to use, and has way more features. 
+This is a replacement for sublime text's bookmark functionality. It's slicker and easier to use, and has way more features.
 
 **Note**: <del> As of now, This is only for **Sublime Text 3**. </del> False! It's been ported. Unfortunately, I havent' implement live preview and project based bookmark sorting. I'm not sure how to port these features over to Sublime Text 2. If someone knows, please do contact me!d
 
@@ -65,46 +65,15 @@ Go to a line you wish to bookmark. Press ```ctrl + shift + P``` on Windows / Lin
 
 
 ###Accessing Bookmarks###
-Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```SublimeBookmarks:Goto Bookmark```. This will bring up a list of all bookmarks. Type in the bookmark name you want to go to and press ```Enter``` to go to the bookmark 
+Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```SublimeBookmarks:Goto Bookmark```. This will bring up a list of all bookmarks. Type in the bookmark name you want to go to and press ```Enter``` to go to the bookmark
 
 
 ###Removing Bookmarks###
 Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```Remove Bookmark```. Type the name of the bookmark you want to remove and press ```Enter```. This will remove the bookmark
 
-To remove _all_ bookmarks, select the option ```SublimeBookmarks:Remove All Bookmarks (Clear Bookmarks)```. This will clear _all bookmarks_. This _can not be undone_.  
+To remove _all_ bookmarks, select the option ```SublimeBookmarks:Remove All Bookmarks (Clear Bookmarks)```. This will clear _all bookmarks_. This _can not be undone_.
 
 
-
-##Visibility Modes:##
-
-SublimeBookmarks has 3 visibility modes associated with it.
-The default mode is option 2.
-
-###1) View all Bookmarks###
-
- This mode shows *all* bookmarks that have been created - irrespective of project or file information.
-
-
- To use this mode, Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```SublimeBookmarks:Show All Bookmarks```
-
- This will show __all__ bookmarks created
-
-
-###2) View only Project Bookmarks###
-
- This mode only shows bookmarksthat belong to the *current project* - it will not show other bookmarks *at all*
-
- Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```SublimeBookmarks:Show Only Bookmarks In Current Project```
-
-This will only show bookmarks that belong to the current project.
-
-###2) View only current file Bookmarks###
-
- This mode only shows bookmark that are present in the *current file*.
-
- Press ```ctrl + shift + P```  on Windows / Linux or ```cmd + shift + P``` on Mac and select ```SublimeBookmarks:Show Only Bookmarks In Current File```
-
-This will only show bookmarks that belong to the current file.
 
 Notes / Addendum
 ================
